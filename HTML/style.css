@@ -1,0 +1,110 @@
+h1 {
+font-size: 40px;
+margin-top: 0;
+margin-bottom: 15px;
+
+}
+
+h2 {
+  font-size: 30px;
+}
+ /* hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+} */
+
+h1, h2, p {
+    text-align: center;
+    
+
+}
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic, #e2e2e2;
+    
+
+}
+body {
+    background-image: url(https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-color: burlywood;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.menu {
+    width: 80%;
+   /* background-color: hwb(202 9% 20% / 0.836); */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; 
+    max-width: 500px;
+}
+.establish {
+    font-style: italic;
+}
+.flats, .terrace {
+    text-align: left;
+    width: 75%;
+    text-size-adjust: 8%;
+}
+.flats, .terrace:hover {
+    color: brown;
+}
+.price {
+    text-align: right;
+    width: 24%;
+    color: brown;
+}
+.price:hover {
+    color:burlywood;
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-indent: 30;
+    color: #b0eb10;
+    text-decoration: line-through;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
+a {
+    color: blue;
+    text-decoration-style: dotted;
+    text-transform: uppercase;
+
+}
+
+.address {
+    text-align: center;
+    text-emphasis-style: bold;
+    margin-bottom: 15px;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: blueviolet;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+
